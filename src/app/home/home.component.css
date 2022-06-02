@@ -47,6 +47,52 @@
     background-color: rgb(36, 36, 36);
     color: rgb(232, 220, 199);
 }
-  
-  
-  
+
+.hr{
+    position: relative;
+    border: 1px solid white;
+}
+.nav-link{
+    position: absolute;
+    top:-15%;
+    right: 45%;
+    width:   10em;
+    height:  3.25em;
+}
+svg{
+    margin: 40px;
+    cursor: pointer;
+}
+.icons-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-class a{
+    color: #acadae;
+    text-decoration: none!important;
+}
+.icons-class a:hover{
+    color: white;
+}
+.copyright-class{
+    font-size: small;
+    text-align: center;
+}
+.customersupport-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customersupport-class a{
+    margin: 2%;
+    color: #acadae;
+    text-decoration: none!important;
+}
+.customersupport-class a:hover{
+    color: white;
+}
+.customersupport-class p{
+    text-align: center;
+    font-size:x-small;
+}
