@@ -1,0 +1,171 @@
+img{
+    height: 3rem;
+    width: 8rem;
+}
+.navbar-grey{
+    background-color: rgb(91, 88, 88)!important;
+}
+.btn-secondary{
+    background-color: rgb(91, 88, 88)!important;
+    border: 0;
+    margin-right: 0.2em;
+}
+.signin{
+    background-color: brown!important;
+}
+.firstnav{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondnav{  
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: small;
+}
+.badge-new{
+    position: relative;
+    display: inline-block;
+}
+.badge{
+    font-size: x-small;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.form-control{
+
+    height: max-content;
+    width:  max-content;
+}
+input[type="text"]{
+    border: 0;
+    border-radius: 5px;
+    width: 200%;
+}
+img[class="nav-link"]{
+   float: left;
+}
+.firstnavleft{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.firstnavright{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-change{
+    color: red;
+}
+.model-body{
+    display: flex;
+    align-items: center;
+}
+.image{
+    width:5em;
+    height:7em;
+    cursor: pointer;
+}
+h6{
+    text-align: center;
+}
+.content-space{
+    margin: 1em;
+}
+a{
+    color: white!important;
+}
+.search-input{
+    margin: 1em;
+}
+p span{
+    text-decoration: underline;
+}
+p{
+    font-weight: 400;
+}
+.siginModalHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.sigininModalBody{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.btn-border{
+    border: 0.05em solid black;
+    margin: 1em;
+    padding: 0.5em;
+}
+.or-class{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.mobile-class{
+    border-width: 0px 0px 1px 0px;
+    width: 100%;
+    margin: 1em;
+}
+.opacity-05{
+    opacity: 0.5;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
