@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LanguageServiceService } from '../language-service.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -22,8 +23,9 @@ export class DashboardComponent implements OnInit {
   name:string="Location";
   location(name:string){
     this.name=name;
+    this.languageservice.setData(this.name);
   }
-  constructor() {
+  constructor(private languageservice:LanguageServiceService) {
     
    }
 
