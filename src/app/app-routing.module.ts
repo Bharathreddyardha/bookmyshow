@@ -15,6 +15,9 @@ const routes: Routes = [
   ]},
   {path:"",component:DashboardComponent,
   children:[
+            {path:"home",component:HomeComponent},
+            {path:"movies",loadChildren:()=>import('./movies/movies.module').then(m=>m.MoviesModule)},
+            {path:"stream",component:StreamComponent},
             {path:"",component:HomeComponent}
   ]},
   {path:"**",component:DashboardComponent}
